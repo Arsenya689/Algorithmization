@@ -20,5 +20,20 @@ else:
 # Задание 3
 #print("\n[1]Сумма\n[2]")
 #summ = int(input("Выберите номер операции"))
-#if summ +:
+#if summ:
 #    print("summ")
+
+# Задание 6 
+#ans = input()
+#green_popug = ("B2", "B4", "B6", "B8", "C2", "C7", "C10", "C11")
+#blue_popug = ("B1", "B3", "B7", "C1", "C4", "C5", "C6", "C8", "C9")
+#if ans in green_popug:
+#    print("Зелёный попугай")
+#elif ans in blue_popug:
+#    print("Синий попугай")
+#else:
+#   print("Серый попугай")
+
+# Задание 7
+ans = int(input())
+
