@@ -8,20 +8,46 @@
 #    print("Вы пенсионер")
 
 # Задание 2
-buy = int(input())
-if buy < 1000:
-    print("Скидка не предоставляется")
-elif buy > 1000 and buy <= 5000:
+#buy = int(input())
+#if buy < 1000:
+#    print("Скидка не предоставляется")
+#elif buy > 1000 and buy <= 5000:
     
-    print("Скидка 5%")
-else:
-    print("Скидка 10%")
+#    print("Скидка 5%")
+#else:
+#    print("Скидка 10%")
 
-# Задание 3
-#print("\n[1]Сумма\n[2]")
-#summ = int(input("Выберите номер операции"))
-#if summ:
-#    print("summ")
+#Задание 3
+#n1 = float(input("Первое число "))
+#n2 = float(input("Второе число"))
+#op= input("Операция(+,-, *, /):")
+
+#if op == "+":
+#    res = n1 + n2
+#elif op == "-":
+#    res = n1 - n2
+#elif op == "*":
+#    res = n1 * n2
+#elif op == "/":
+#    if n2 == 0:
+#        print("Ошибка: деление на ноль(тупой)")
+#    else:
+#        res = n1 / n2
+#else:
+#    print("Ошибка: неверная операция")
+
+#print(f"{n1} {op} {n2} = {res}")
+
+#Задание 5
+#password_correct = '123456789'
+#while True:
+#    password = input("Введите пароль:")
+
+#    if password == password_correct:
+#        print("Верный пароль. Вход разрешен.")
+#        break
+#    else:
+#        print("Пароль неправильный. Попробуйт ёщё раз...")
 
 # Задание 6 
 #ans = input()
@@ -35,5 +61,31 @@ else:
 #   print("Серый попугай")
 
 # Задание 7
-ans = int(input())
+#n = int(input("Введите числа n:"))
+#k = int(input("Введите числа k:"))
+#if k != 0 and n % k == 0:
+#    print(f"{n} кратно {k}")
+#else:
+#    print(f"{n} не кратно {k} или k равно 0")
+
+#Задание 8
+#def check_player_status(level, health):
+#    if level < 0 or health < 0 or health > 100:
+#        return "Некорректные данные."
+#    if level < 5:
+#        return "Ваш уровень слишком низкий для выполнения миссии."
+#    if health > 50:
+#        return "Вы готовы к миссии!"
+#    elif 20 <= health <= 50:
+#        return "Ваше здоровье низкое, будьте осторожны."
+#    else:  # здоровье < 20
+#        return "Ваше здоровье слишком низкое для выполнения миссии."
+        
+#player_level = int(input("Введите уровень игрока: "))
+#player_health = int(input("Введите количество здоровья игрока: "))
+#message = check_player_status(player_level, player_health)
+#print(message)
+
+# Задание 9
+
 
