@@ -87,5 +87,26 @@
 #print(message)
 
 # Задание 9
+#inventory = ["яблоко", "шариковая ручкая"]
+#if "ключ" in inventory and "фонарь" in inventory:
+#    print("Вы можете пройти через дверь.")
+#elif "ключ" not in inventory:
+#    print("У вас нет ключа, вы не можете открыть дверь")
+#elif "фонарь" not in inventory:
+#    print("У вас нет фонаря, слишком темно, чтобы пройти")
+#else:
+#    print("У вас нет ни ключа, ни фонаря, вы не можете пройти через дверь.")
 
+#Задание 10
+#king = "Enemies are coming! Are the archers ready?"
+#warrior = "For the Alliance!"
+#magician = "The spell is ready."
+#if "?" in king or "!" in king:
+#    print("Есть одно из них в словах короля")
+#elif "?" in warrior or "!" in warrior:
+#    print("Есть одно из них в словах воина")
+#elif "?" in magician or "!" in magician:
+#    print("Есть одно из них в словах мага")
+#else:
+#    print("alo")
 
