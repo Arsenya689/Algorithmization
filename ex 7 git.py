@@ -36,3 +36,4 @@ triangle_type(3, 4, 5)
 triangle_type(1, 2, 3)
 
 #Задание 3.2
+        
