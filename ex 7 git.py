@@ -64,3 +64,15 @@ def number_change(input_number, output_number):
     return steps, input_number, output_number
 result = number_change(5, 10)
 print(result) 
+
+#Задание 5
+player = 0
+def info_player():
+    print(f"Игрок пробежал {player} км.")
+def run_player(km):
+    global player
+    player += km / 2
+info_player()
+run_player(30)
+run_player(12.5)
+info_player()
