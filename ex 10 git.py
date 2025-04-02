@@ -104,3 +104,73 @@ car_2.info_car()
 race_1 = Race("Кольцевые автогонки")
 race_1.append_participants(car_1, car_2)
 race_1.start_race()
+
+#Задание 4
+
+class MusicFile:
+    def play(self):
+        print("Воспроизведение аудио файла...")
+
+class MP3File(MusicFile):
+    def play(self):
+        print("Воспроизведение MP3 файла")
+
+class WAVFile(MusicFile):
+    def play(self):
+        print("Воспроизведение WAV файла")
+
+class FLACFile(MusicFile):
+    def play(self):
+        print("Воспроизведение FLAC файла")
+
+def play_music(files: list):
+    for file in files:
+        file.play()
+
+if __name__ == "__main__":
+    files = [
+        MP3File(),
+        WAVFile(),
+        FLACFile()
+    ]
+
+    play_music(files)
+
+#Задание 5
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+    @abstractmethod
+    def move(self):
+        pass
+
+    @abstractmethod
+    def fuel_type(self):
+        pass
+
+class Car(Vehicle):
+    def move(self):
+        return "Автомобиль едет по дороге"
+
+    def fuel_type(self):
+        return "Бензин"
+
+class Boat(Vehicle):
+    def move(self):
+        return"Лодка плывет по воде"
+
+    def fuel_type(self):
+        return "Дизель"
+
+def test_transport(vehicles):
+        for vehicle in vehicles:
+            print(vehicle.move())
+            print(f"Тип топлива: {vehicle.fuel_type()}\n")
+
+if __name__ == "__main__":
+    car = Car()
+    boat = Boat()
+
+    test_transport([car, boat])
+
